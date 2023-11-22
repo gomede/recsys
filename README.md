@@ -4,7 +4,6 @@ Building a recommender system using the BookCrossing dataset from Kaggle involve
 
 <img src="Assets/Book%20Catalogue.png" width="300" height="200">
 
-
 ## 1. Define the Objective
 Determine what your book recommender system aims to achieve. It could be recommending books based on user preferences, similar reading patterns, or genres.
 
@@ -42,7 +41,7 @@ Determine what your book recommender system aims to achieve. It could be recomme
 
 ---
 
-# Dataset Analysis: Books, Users, and Ratings
+# 3. Dataset Analysis: Books, Users, and Ratings
 
 ## Overview
 This document summarizes the analysis performed on three datasets related to books, users, and ratings. It includes insights into user demographics, book publications, top authors, and publishers.
@@ -60,6 +59,12 @@ https://www.kaggle.com/datasets/somnambwl/bookcrossing-dataset
 - High sparsity with only 0.003% of the possible user-book combinations having ratings.
 - Majority of users and books have only a few ratings.
 - Significant number of zero ratings, indicating either non-rated items or a specific rating category.
+
+<img src="Assets/Sparse Matrix.png" width="500" height="400">
+
+<img src="Assets/Long Tail.png" width="500" height="200">
+
+<img src="Assets/Ratings.png" width="500" height="200">
 
 ### Users Dataset
 - Age distribution is predominantly between 20 to 50 years.
